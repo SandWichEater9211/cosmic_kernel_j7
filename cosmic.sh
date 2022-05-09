@@ -28,7 +28,7 @@ COSMIC_ARCH=arm64
 COSMIC_LAST_COMMIT=$(git rev-parse --short HEAD)
 ############## Build Requirements ###############
 export ARCH=$COSMIC_ARCH
-export CROSS_COMPILE=$COSMIC_TC
+export CROSS_COMPILE=/home/moin/Desktop/kernel/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 export PLATFORM_VERSION=$COSMIC_PLATFORM
 ############### Naming the kernel ###############
 export KBUILD_BUILD_HOST=$COSMIC_NAME
